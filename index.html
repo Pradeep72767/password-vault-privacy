@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Password Vault Android application.">
+    <title>Privacy Policy - Password Vault</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background: #f5f6fa;
+            color: #252525;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 35px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.07);
+        }
+
+        h1 {
+            color: #172554;
+            text-align: center;
+        }
+
+        h2 {
+            color: #1d4ed8;
+            margin-top: 28px;
+            font-size: 21px;
+        }
+
+        .date {
+            text-align: center;
+            color: #666;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        a {
+            color: #1d4ed8;
+        }
+
+        @media(max-width:600px) {
+            .container {
+                margin: 12px;
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Privacy Policy</h1>
+    <h2 style="text-align:center; margin-top:0;">Password Vault</h2>
+    <p class="date">Effective Date: November 11, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>
+        Password Vault is a personal password management application
+        designed to help users securely store, organize, and manage
+        credentials for multiple websites, applications, and online platforms.
+    </p>
+    <p>
+        The application follows a local-first approach. User vault
+        information is stored on the user's Android device rather than
+        in a cloud-based password database.
+    </p>
+
+    <h2>2. Information We Handle</h2>
+    <p>When creating a vault, users provide:</p>
+    <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Vault Password (Master Password)</li>
+    </ul>
+
+    <p>Users can also save account information such as:</p>
+    <ul>
+        <li>Platform or website name</li>
+        <li>Account category</li>
+        <li>Platform username or email</li>
+        <li>Platform password</li>
+    </ul>
+    <p>
+        This information is entered voluntarily by users for
+        password management purposes.
+    </p>
+
+    <h2>3. Local Data Storage</h2>
+    <p>
+        Password Vault uses a local Room Database to store vault
+        registration information and saved account records on the
+        user's Android device.
+    </p>
+    <ul>
+        <li>Information is stored locally.</li>
+        <li>Saved account credentials are encrypted before database storage.</li>
+        <li>The application does not maintain a remote database of saved passwords.</li>
+        <li>The application does not provide cloud synchronization.</li>
+        <li>Saved credentials are not transmitted to our servers.</li>
+    </ul>
+
+    <h2>4. Password Encryption and Security</h2>
+    <p>
+        Password Vault uses AES-256-GCM encryption as part of its
+        data protection mechanism.
+    </p>
+    <p>
+        Saved account credentials are encrypted before being stored
+        in the local database. When a user wants to view a saved
+        password, the application requests the Vault Password and
+        verifies it before allowing access to the decrypted credential.
+    </p>
+    <p>
+        Encrypted credentials are displayed in the password list
+        rather than their original plaintext values.
+    </p>
+    <p>
+        We take reasonable technical measures to protect user
+        information. However, no electronic storage or security
+        mechanism can guarantee absolute protection.
+    </p>
+
+    <h2>5. Vault Password</h2>
+    <p>
+        The Vault Password protects access to the user's password vault.
+        Users are responsible for keeping this password confidential.
+    </p>
+    <p>
+        If the Vault Password is forgotten, recovery may not be possible,
+        depending on the application's recovery functionality.
+    </p>
+
+    <h2>6. Backup and Restore</h2>
+    <p>
+        Password Vault provides an optional backup and restore feature.
+        Users can export saved account information into a password-protected
+        JSON backup file.
+    </p>
+    <p><strong>Backup:</strong></p>
+    <ul>
+        <li>The backup file is protected using a backup password.</li>
+        <li>Users can save the exported file to a location of their choice.</li>
+    </ul>
+
+    <p><strong>Restore:</strong></p>
+    <ul>
+        <li>Users must enter the correct backup password.</li>
+        <li>The application verifies the backup protection before importing.</li>
+        <li>After successful verification, account records are restored to the local database.</li>
+    </ul>
+    <p>
+        Users are responsible for keeping backup files and backup
+        passwords secure. Backup files saved to third-party storage
+        providers are also subject to those providers' privacy policies.
+    </p>
+
+    <h2>7. Data Sharing and Third-Party Services</h2>
+    <p>
+        Password Vault does not sell, rent, or share saved account
+        credentials with third parties.
+    </p>
+    <p>
+        Based on the current application implementation, the app
+        does not use Firebase, Google Analytics, AdMob, or third-party
+        cloud storage services.
+    </p>
+    <p>
+        Saved credentials are not transmitted to our servers.
+    </p>
+
+    <h2>8. Data Retention and Deletion</h2>
+    <p>
+        User information remains stored locally until it is deleted
+        through the application's available functionality or the
+        application data is removed.
+    </p>
+    <p>
+        Uninstalling the application or clearing its data may
+        permanently remove locally stored information.
+    </p>
+    <p>
+        Exported backup files are stored separately and may need
+        to be deleted manually from the location where they were saved.
+    </p>
+
+    <h2>9. Device Security</h2>
+    <p>
+        Users should protect their devices with a screen lock,
+        keep their operating systems updated, and avoid sharing
+        their Vault Password or backup password.
+    </p>
+
+    <h2>10. Children's Privacy</h2>
+    <p>
+        Password Vault is a general-purpose password management
+        application and is not specifically designed for children.
+    </p>
+
+    <h2>11. Changes to This Privacy Policy</h2>
+    <p>
+        We may update this Privacy Policy when application features,
+        security practices, or applicable requirements change.
+        Updated versions will be published on this page with a
+        revised effective date.
+    </p>
+
+    <h2>12. Contact Us</h2>
+    <p>
+        If you have questions, privacy concerns, or requests regarding
+        this Privacy Policy, contact us:
+    </p>
+    <p>
+        <strong>Application:</strong> Password Vault<br>
+        <strong>Developer:</strong> Pradeep Prajapati<br>
+        <strong>Email:</strong>
+        <a href="mailto:YOUR_EMAIL@gmail.com">pradeep.mobile.dev11@gmail.com</a>
+    </p>
+
+    <footer>
+        © 2026 Password Vault. All rights reserved.
+    </footer>
+
+</div>
+</body>
+</html>
